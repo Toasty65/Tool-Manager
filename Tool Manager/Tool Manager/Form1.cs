@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Tool_Manager
 {
-    public partial class Form1 : Form
+    public partial class ToolManager : Form
     {
-        public Form1()
+        public ToolManager()
         {
             InitializeComponent();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
